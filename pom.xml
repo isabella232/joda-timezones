@@ -22,14 +22,14 @@
     <dependency>
       <groupId>joda-time</groupId>
       <artifactId>joda-time</artifactId>
-      <version>2.2</version>
+      <version>2.10.5</version>
       <type>jar</type>
       <!--scope>provided</scope-->
     </dependency>
   </dependencies>
 
   <properties>
-    <tzdata.version>2013d</tzdata.version>
+    <tzdata.version>2019c</tzdata.version>
     <tzdata.ftpserver>ftp.iana.org</tzdata.ftpserver>
     <tzdata.ftp.dir>/tz/releases</tzdata.ftp.dir>
     <tzdata.tar.gz>${project.build.directory}/tzdata-${tzdata.version}.tar.gz</tzdata.tar.gz>
